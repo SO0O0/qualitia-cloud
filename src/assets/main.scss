@@ -1,14 +1,25 @@
 #app {
   background: #fff;
-  height: 100vh;
   header {
-    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
     background: #fff;
     display: flex;
     padding: 30px 20px;
 
     a {
       text-decoration: none;
+    }
+  }
+  #main_vidual {
+    height: 600px;
+    background: transparent url(../assets/img/main_vidual.png) no-repeat padding-box;
+    background-size: cover;
+    background-color: #000;
+    text-align: center;
+    .container {
+        padding: 120px 0;
     }
   }
 }
