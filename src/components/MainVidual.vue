@@ -13,29 +13,40 @@
   </section>
 </template>
 <style lang="scss" scoped>
-// svgを白く塗りつぶす
-.logo {
-  fill: #fff;
-  width: 500px;
-}
+#main_vidual {
+  height: 600px;
+  background: transparent url(../assets/img/main_vidual.png) no-repeat
+    padding-box;
+  background-size: cover;
+  background-color: #000;
+  text-align: center;
+  .container {
+    padding: 120px 0;
 
-.catchphrase {
-  font-family: "Noto Serif JP", serif;
-  font-weight: 500;
-  margin-top: 80px;
-  font-size: 25px;
-  color: #fff;
+    .logo {
+      fill: #fff;
+      width: 500px;
+    }
 
-  .phrase {
-    font-size: 28px;
-    font-weight: thin;
-  }
+    .catchphrase {
+      font-family: "Noto Serif JP", serif;
+      font-weight: 500;
+      margin-top: 80px;
+      font-size: 25px;
+      color: #fff;
 
-  .about {
-    margin-top: 30px;
-    font-size: 40px;
-    line-height: 1.5;
-    font-weight: medium;
+      .phrase {
+        font-size: 28px;
+        font-weight: thin;
+      }
+
+      .about {
+        margin-top: 30px;
+        font-size: 40px;
+        line-height: 1.5;
+        font-weight: medium;
+      }
+    }
   }
 }
 </style>

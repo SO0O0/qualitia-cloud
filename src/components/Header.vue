@@ -26,38 +26,51 @@
 </template>
 
 <style lang="scss" scoped>
-.logo {
-  margin: auto 0;
-}
-.global_nav {
+header {
+  top: 0;
+  left: 0;
+  position: relative;
+  background: #fff;
   display: flex;
-  list-style: none;
-  padding: 0 auto;
-  margin-left: 350px;
-  li {
-    margin: auto 10px;
+  padding: 30px 20px;
+
+  a {
+    text-decoration: none;
   }
-}
 
-.trial {
-  width: 140px;
-  font-weight: bold;
-  width: 140px;
-  text-align: center;
-  color: #c6a96b;
-  border: 1px solid #c6a96b;
-  opacity: 1;
-  padding: 15px;
-  margin-left: 50px;
-}
+  .logo {
+    margin: auto 0;
+  }
+  .global_nav {
+    display: flex;
+    list-style: none;
+    padding: 0 auto;
+    margin-left: 350px;
+    li {
+      margin: auto 10px;
+    }
+  }
 
-.inquiry {
-  text-align: center;
-  color: #fff;
-  width: 140px;
-  background-color: #c6a96b;
-  opacity: 1;
-  padding: 15px;
-  margin-left: 10px;
+  .trial {
+    width: 140px;
+    font-weight: bold;
+    width: 140px;
+    text-align: center;
+    color: #c6a96b;
+    border: 1px solid #c6a96b;
+    opacity: 1;
+    padding: 15px;
+    margin-left: 50px;
+  }
+
+  .inquiry {
+    text-align: center;
+    color: #fff;
+    width: 140px;
+    background-color: #c6a96b;
+    opacity: 1;
+    padding: 15px;
+    margin-left: 10px;
+  }
 }
 </style>
