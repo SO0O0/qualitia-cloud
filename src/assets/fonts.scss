@@ -38,3 +38,43 @@
   src: url('@/assets/font/NotoSerifJP-SemiBold.otf') format('opentype');
   font-weight: 600;
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('@/assets/font/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nato Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Light.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('@/assets/font/Noto_Sans_JP/NotoSansJP-Thin.otf') format('opentype');
+  font-weight: 100;
+}
