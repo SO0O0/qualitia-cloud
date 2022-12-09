@@ -1,0 +1,14 @@
+#app {
+  background: #fff;
+  height: 100vh;
+  header {
+    position: absolute;
+    background: #fff;
+    display: flex;
+    padding: 30px 20px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
